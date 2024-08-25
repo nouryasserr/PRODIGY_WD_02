@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stopwatch.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="time">
+        <div class="time-content">
+          <div class="time-comp">
+            <span class="hours-num">00</span>
+            <span class="time-detr">Hours</span>
+          </div>
+          :
+          <div class="time-comp">
+            <span class="min-num">00</span>
+            <span class="time-detr">Mins</span>
+          </div>
+          :
+          <div class="time-comp">
+            <span class="sec-num">00</span>
+            <span class="time-detr">Secs</span>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button id="reset">Reset</button>
+        <button id="start">Start</button>
+        <button id="lap">Lap</button>
+      </div>
+      <hr />
+      <div id="laps"></div>
+    </div>
+    <script src="stopwatch.js"></script>
+  </body>
+</html>
